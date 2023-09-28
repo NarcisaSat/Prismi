@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63044A352AB33F360052DA9E /* PrismiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63044A342AB33F360052DA9E /* PrismiApp.swift */; };
+		63044A372AB33F360052DA9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63044A362AB33F360052DA9E /* ContentView.swift */; };
+		63044A392AB33F370052DA9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63044A382AB33F370052DA9E /* Assets.xcassets */; };
+		63044A492AB33F5B0052DA9E /* Etape1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63044A482AB33F5B0052DA9E /* Etape1.swift */; };
+		6362F4832ABAD149007F4E2D /* bddJeu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6362F4822ABAD149007F4E2D /* bddJeu.swift */; };
+		6362F4892ABB13D2007F4E2D /* Ludotheque.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6362F4882ABB13D2007F4E2D /* Ludotheque.swift */; };
+		6362F48F2ABB2C8B007F4E2D /* Reglages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6362F48E2ABB2C8B007F4E2D /* Reglages.swift */; };
+		6362F49B2ABB3A27007F4E2D /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6362F49A2ABB3A27007F4E2D /* SliderView.swift */; };
+		6362F4AB2ABD8B82007F4E2D /* Recommandations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6362F4AA2ABD8B82007F4E2D /* Recommandations.swift */; };
+		6362F4B32ABD9C1D007F4E2D /* FicheProduit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6362F4B22ABD9C1D007F4E2D /* FicheProduit.swift */; };
+		87371A542AC578BB006504F2 /* Ludotheque2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87371A532AC578BB006504F2 /* Ludotheque2.swift */; };
+		8764472F2AC4140D00B41FA6 /* FicheProduitT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8764472E2AC4140D00B41FA6 /* FicheProduitT.swift */; };
+		87C173092AC2C20800E89761 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C173082AC2C20800E89761 /* Test.swift */; };
+		87C1730B2AC2CD8900E89761 /* splashscreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C1730A2AC2CD8900E89761 /* splashscreen.swift */; };
+		87C1730D2AC2E22E00E89761 /* ButtonSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C1730C2AC2E22E00E89761 /* ButtonSwiftUIView.swift */; };
+		87C1730F2AC2EF4D00E89761 /* Type_de_jeu_deta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C1730E2AC2EF4D00E89761 /* Type_de_jeu_deta.swift */; };
+		87C173112AC2F63500E89761 /* Type_de_jeu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C173102AC2F63500E89761 /* Type_de_jeu.swift */; };
+		87C173132AC2F6B700E89761 /* Type_de_jeu_trita.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C173122AC2F6B700E89761 /* Type_de_jeu_trita.swift */; };
+		87C173152AC2FCB800E89761 /* RowGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C173142AC2FCB800E89761 /* RowGame.swift */; };
+		87C173172AC3149200E89761 /* RootNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C173162AC3149200E89761 /* RootNavigation.swift */; };
+		87C1731B2AC31B9E00E89761 /* FicheProduitD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C1731A2AC31B9E00E89761 /* FicheProduitD.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		63044A312AB33F360052DA9E /* Prismi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prismi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63044A342AB33F360052DA9E /* PrismiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrismiApp.swift; sourceTree = "<group>"; };
+		63044A362AB33F360052DA9E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		63044A382AB33F370052DA9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63044A482AB33F5B0052DA9E /* Etape1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Etape1.swift; sourceTree = "<group>"; };
+		63044AA32AB48DB40052DA9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6362F4822ABAD149007F4E2D /* bddJeu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bddJeu.swift; sourceTree = "<group>"; };
+		6362F4882ABB13D2007F4E2D /* Ludotheque.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ludotheque.swift; sourceTree = "<group>"; };
+		6362F48E2ABB2C8B007F4E2D /* Reglages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reglages.swift; sourceTree = "<group>"; };
+		6362F49A2ABB3A27007F4E2D /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		6362F4AA2ABD8B82007F4E2D /* Recommandations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recommandations.swift; sourceTree = "<group>"; };
+		6362F4B22ABD9C1D007F4E2D /* FicheProduit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FicheProduit.swift; sourceTree = "<group>"; };
+		87371A532AC578BB006504F2 /* Ludotheque2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ludotheque2.swift; sourceTree = "<group>"; };
+		8764472E2AC4140D00B41FA6 /* FicheProduitT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FicheProduitT.swift; sourceTree = "<group>"; };
+		87C173082AC2C20800E89761 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		87C1730A2AC2CD8900E89761 /* splashscreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splashscreen.swift; sourceTree = "<group>"; };
+		87C1730C2AC2E22E00E89761 /* ButtonSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSwiftUIView.swift; sourceTree = "<group>"; };
+		87C1730E2AC2EF4D00E89761 /* Type_de_jeu_deta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Type_de_jeu_deta.swift; sourceTree = "<group>"; };
+		87C173102AC2F63500E89761 /* Type_de_jeu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Type_de_jeu.swift; sourceTree = "<group>"; };
+		87C173122AC2F6B700E89761 /* Type_de_jeu_trita.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Type_de_jeu_trita.swift; sourceTree = "<group>"; };
+		87C173142AC2FCB800E89761 /* RowGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowGame.swift; sourceTree = "<group>"; };
+		87C173162AC3149200E89761 /* RootNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootNavigation.swift; sourceTree = "<group>"; };
+		87C1731A2AC31B9E00E89761 /* FicheProduitD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FicheProduitD.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63044A2E2AB33F360052DA9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63044A282AB33F360052DA9E = {
+			isa = PBXGroup;
+			children = (
+				87C173082AC2C20800E89761 /* Test.swift */,
+				63044A332AB33F360052DA9E /* Prismi */,
+				63044A322AB33F360052DA9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63044A322AB33F360052DA9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63044A312AB33F360052DA9E /* Prismi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63044A332AB33F360052DA9E /* Prismi */ = {
+			isa = PBXGroup;
+			children = (
+				63044AA32AB48DB40052DA9E /* Info.plist */,
+				63044A342AB33F360052DA9E /* PrismiApp.swift */,
+				87C1730A2AC2CD8900E89761 /* splashscreen.swift */,
+				63044A482AB33F5B0052DA9E /* Etape1.swift */,
+				87C1730C2AC2E22E00E89761 /* ButtonSwiftUIView.swift */,
+				87C173102AC2F63500E89761 /* Type_de_jeu.swift */,
+				87C1730E2AC2EF4D00E89761 /* Type_de_jeu_deta.swift */,
+				87C173122AC2F6B700E89761 /* Type_de_jeu_trita.swift */,
+				6362F4AA2ABD8B82007F4E2D /* Recommandations.swift */,
+				87371A532AC578BB006504F2 /* Ludotheque2.swift */,
+				6362F4B22ABD9C1D007F4E2D /* FicheProduit.swift */,
+				87C1731A2AC31B9E00E89761 /* FicheProduitD.swift */,
+				8764472E2AC4140D00B41FA6 /* FicheProduitT.swift */,
+				6362F4882ABB13D2007F4E2D /* Ludotheque.swift */,
+				6362F48E2ABB2C8B007F4E2D /* Reglages.swift */,
+				87C173142AC2FCB800E89761 /* RowGame.swift */,
+				6362F4822ABAD149007F4E2D /* bddJeu.swift */,
+				6362F49A2ABB3A27007F4E2D /* SliderView.swift */,
+				87C173162AC3149200E89761 /* RootNavigation.swift */,
+				63044A362AB33F360052DA9E /* ContentView.swift */,
+				63044A382AB33F370052DA9E /* Assets.xcassets */,
+			);
+			path = Prismi;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63044A302AB33F360052DA9E /* Prismi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63044A3F2AB33F370052DA9E /* Build configuration list for PBXNativeTarget "Prismi" */;
+			buildPhases = (
+				63044A2D2AB33F360052DA9E /* Sources */,
+				63044A2E2AB33F360052DA9E /* Frameworks */,
+				63044A2F2AB33F360052DA9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Prismi;
+			productName = Prismi;
+			productReference = 63044A312AB33F360052DA9E /* Prismi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63044A292AB33F360052DA9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					63044A302AB33F360052DA9E = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 63044A2C2AB33F360052DA9E /* Build configuration list for PBXProject "Prismi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63044A282AB33F360052DA9E;
+			productRefGroup = 63044A322AB33F360052DA9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63044A302AB33F360052DA9E /* Prismi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63044A2F2AB33F360052DA9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63044A392AB33F370052DA9E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63044A2D2AB33F360052DA9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8764472F2AC4140D00B41FA6 /* FicheProduitT.swift in Sources */,
+				87C1731B2AC31B9E00E89761 /* FicheProduitD.swift in Sources */,
+				87371A542AC578BB006504F2 /* Ludotheque2.swift in Sources */,
+				63044A372AB33F360052DA9E /* ContentView.swift in Sources */,
+				6362F4832ABAD149007F4E2D /* bddJeu.swift in Sources */,
+				87C173132AC2F6B700E89761 /* Type_de_jeu_trita.swift in Sources */,
+				87C1730D2AC2E22E00E89761 /* ButtonSwiftUIView.swift in Sources */,
+				63044A352AB33F360052DA9E /* PrismiApp.swift in Sources */,
+				87C173092AC2C20800E89761 /* Test.swift in Sources */,
+				6362F4892ABB13D2007F4E2D /* Ludotheque.swift in Sources */,
+				87C1730F2AC2EF4D00E89761 /* Type_de_jeu_deta.swift in Sources */,
+				6362F4AB2ABD8B82007F4E2D /* Recommandations.swift in Sources */,
+				87C173112AC2F63500E89761 /* Type_de_jeu.swift in Sources */,
+				6362F48F2ABB2C8B007F4E2D /* Reglages.swift in Sources */,
+				63044A492AB33F5B0052DA9E /* Etape1.swift in Sources */,
+				87C173172AC3149200E89761 /* RootNavigation.swift in Sources */,
+				6362F49B2ABB3A27007F4E2D /* SliderView.swift in Sources */,
+				87C173152AC2FCB800E89761 /* RowGame.swift in Sources */,
+				87C1730B2AC2CD8900E89761 /* splashscreen.swift in Sources */,
+				6362F4B32ABD9C1D007F4E2D /* FicheProduit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		63044A3D2AB33F370052DA9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63044A3E2AB33F370052DA9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63044A402AB33F370052DA9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Prismi/Preview Content\"";
+				DEVELOPMENT_TEAM = PY9DGJZQVY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Prismi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Team;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63044A412AB33F370052DA9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Prismi/Preview Content\"";
+				DEVELOPMENT_TEAM = PY9DGJZQVY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Prismi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Team;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63044A2C2AB33F360052DA9E /* Build configuration list for PBXProject "Prismi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63044A3D2AB33F370052DA9E /* Debug */,
+				63044A3E2AB33F370052DA9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63044A3F2AB33F370052DA9E /* Build configuration list for PBXNativeTarget "Prismi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63044A402AB33F370052DA9E /* Debug */,
+				63044A412AB33F370052DA9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63044A292AB33F360052DA9E /* Project object */;
+}
