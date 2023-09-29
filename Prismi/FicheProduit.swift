@@ -16,6 +16,10 @@ struct FicheProduit: View {
     
     var body: some View {
             VStack {
+                Capsule()
+                    .foregroundColor(Color("Colorblued"))
+                    .frame(width: 70, height: 38)
+                    .offset(x: -155, y: -40)
                 // Faire Foreach suer les images
                 ScrollView(.horizontal)
                 {
@@ -39,18 +43,18 @@ struct FicheProduit: View {
                         Text(chosenProduct.type[0].rawValue)
                             .padding(10)
                             .font(Font.custom("Inter-Bold", size: 14))
-                            .foregroundColor(Color("Coloryellow"))
-                            .background(Color("Colorblue"))
+                            .foregroundColor(Color("Coloryellowd"))
+                            .background(Color("Colorblued"))
                             .cornerRadius(20)
                         // Titre du jeu
                         Text(chosenProduct.name)
                             .padding(.bottom, 10)
-                            .foregroundColor(Color("Colorblue"))
+                            .foregroundColor(Color("Colorblued"))
                             .font(Font.custom("Inter-Bold", size: 28))
                         // Description du jeu
                         Text(chosenProduct.description)
                             .fixedSize(horizontal: false, vertical: true)
-                            .foregroundColor(Color("Colorblue"))
+                            .foregroundColor(Color("Colorblued"))
                             .font(Font.custom("Inter-Regular", size: 18))
                             .padding(.bottom,10)
                         HStack {
@@ -62,24 +66,24 @@ struct FicheProduit: View {
                         HStack {
                             // Durée du jeu
                             Text("Durée du jeu : \(chosenProduct.time)")
-                                .foregroundColor(Color("Colorblue"))
+                                .foregroundColor(Color("Colorblued"))
                                 .font(Font.custom("Inter-Bold", size: 18))
                         }
                         HStack {
                             // Complexité :
                             Text("Compléxité : \(chosenProduct.difficulty[0].rawValue)")
-                                .foregroundColor(Color("Colorblue"))
+                                .foregroundColor(Color("Colorblued"))
                                 .font(Font.custom("Inter-Bold", size: 18))
                         }
                         HStack {
                             // Prix du jeu de société
                             Text("Prix : \(chosenProduct.price)")
-                                .foregroundColor(Color("Colorblue"))
+                                .foregroundColor(Color("Colorblued"))
                                 .font(Font.custom("Inter-Bold", size: 18))
                         }
                     }
                 }
-               
+                .padding(.bottom, 1)
                     // Si on clique sur découvrir on va vers un site externe
 //                    Button(action: {}) {
 //                        Text("Découvrir")

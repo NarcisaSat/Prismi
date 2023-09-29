@@ -1,9 +1,9 @@
 import SwiftUI
 
 struct Reglages: View {
-    @State private var myBackColor: Color = Color("Colorblue")
-    @State private var myTextColor: Color = Color("Coloryellow")
-    @State private var myButtonTextColor: Color = Color("Colorblue")
+    @State private var myBackColor: Color = Color("Colorblued")
+    @State private var myTextColor: Color = Color("Coloryellowd")
+    @State private var myButtonTextColor: Color = Color("Colorblued")
     @State private var buttonison = false
     @State private var numberOfPlayers: Double = 1
     @State private var isImageOn = false

@@ -29,7 +29,16 @@ struct MesRecomandations: View {
                 Button("Filtre") {
                     showModal.toggle()
                 }
-                .offset(x: 150, y: -10)
+                .offset(x: 150, y: 0)
+                .fontWeight(.bold)
+                .foregroundColor(Color("Colorblued"))
+//                .background(
+//                    RoundedRectangle(cornerRadius: 10)
+//                        .foregroundColor(Color("Coloryellowd"))
+//                        .frame(width: 70, height: 38)
+//                        .offset(x: 150, y: 0)
+//                    )
+                
                 Section(header: Text("Mes recommandations")
 //                    .foregroundColor(Color("Colorblue"))
                     .font(Font.custom("Inter-Bold", size: 25))
@@ -69,7 +78,7 @@ struct MesRecomandations: View {
                         }
                         
                     }
-                   
+                    .padding(.bottom, 1)
                     .listStyle(.plain)
                 } // Début de la modale
 //                .toolbar {

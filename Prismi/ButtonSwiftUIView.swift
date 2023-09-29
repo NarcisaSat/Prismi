@@ -148,7 +148,7 @@ struct ButtonjoueurSwiftUIView: View {
                 }
             }
             .foregroundColor(selectedColorFont)
-            .font(.custom("Inter-Bold", size: 30))
+//            .font(.custom("Inter-Bold", size: 30))
             
         }
     }

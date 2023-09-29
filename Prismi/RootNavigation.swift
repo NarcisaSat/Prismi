@@ -13,6 +13,7 @@ struct RootNavigation: View {
         @State private var selectedType = ""
         @State private var selectedAccessFont = Color("Coloryellow")
     @State private var selectedAccessBack = Color("Colorblue")
+    @State private var splashSwitch = true
     
     init() {
         UITabBar.appearance().backgroundColor = UIColor(named: "Colorblued")
@@ -35,10 +36,23 @@ struct RootNavigation: View {
                         Label("Ludotheque2", systemImage: "bookmark.fill")
                     }
             }
-            .tint(.black)
+//            .tint(.black)
             
         } else {
-            Etape1(startOfSetting: $endOfSettings, selectedType: $selectedType, selectedAccessFont: $selectedAccessFont, selectedAccessBack: $selectedAccessBack)
+            if !splashSwitch {
+                
+                Etape1(startOfSetting: $endOfSettings, selectedType: $selectedType, selectedAccessFont: $selectedAccessFont, selectedAccessBack: $selectedAccessBack)
+            } else {
+                splashscreen()
+                    .onAppear {
+                        withAnimation(.easeIn(duration: 1).delay(2)) {
+                            splashSwitch = false
+                        }
+                    }
+                    
+            }
+                    
+            
         }
         
         

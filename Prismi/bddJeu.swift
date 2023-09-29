@@ -71,7 +71,7 @@ var jeuaventuriersdurail = jeu(name: "Les aventuriers du rail europe",
 // Sherlock
 
 
-var sherlock = jeu(name:"Sherlock Holmes: Les meurtres de la Tamise & autres enquêtes",
+var sherlock = jeu(name:"Sherlock Holmes: Les meurtres de la Tamise",
                    description: "Un jeu coopératif dans lequel vous enquêtez sur les mêmes affaires que le plus fameux des détectives.Suivez les pistes, recueillez les indices et tentez de rivaliser avec Sherlock Holmes en résolvant les enquêtes à votre façon.10 cas inédits dans une seule boîte : Sherlock Homes contre Jack l’Éventreur (4 enquêtes en mode campagne) et Aventures à WestEnd (6 enquêtes inédites en français).10 nouvelles enquêtes policières à résoudre...",
                    price: "€€",
                    image: ["Sherlockk","sherlockholmes-contenant"],
@@ -134,7 +134,7 @@ var dobble = jeu (
 
 // Code name XXL
 
-var codeNameXxl = jeu(name: "Codenames XXL",
+var codeNameXxl = jeu(name:"Codenames XXL",
                       description:"Dans Codenames XXL, entrez dans le monde de l'espionnage et de la déduction. Deux équipes s'affrontent pour identifier leurs agents secrets parmi une grille de mots mystérieux. Les maîtres-espions donnent des indices ingénieux pour guider leurs coéquipiers, mais attention à ne pas désigner les assassins ennemis ! Codenames XXL offre une expérience de jeu immersive avec des cartes en grand format pour une meilleure visibilité. Un jeu de mots et de stratégie passionnant qui mettra à l'épreuve vos compétences en communication et en déduction. Saurez-vous mener votre équipe à la victoire en déchiffrant les indices et en évitant les pièges ? Un jeu primé qui promet des heures de divertissement captivant.",
                       price: "€€€",
                       image: ["codenames0","codenames1"],
@@ -151,7 +151,7 @@ var codeNameXxl = jeu(name: "Codenames XXL",
 
 var monopoly = jeu (
     name: "Monopoly",
-    description: " Le Monopoly est jeu de plateau, il faut acheter, vendre et échanger des propriétés pour gagner. Les cartes Chance et Caisse de communauté peuvent modifier la partie : un joueur peut s'enrichir ou être envoyé en prison. C'est le jeu parfait pour les soirées de jeux en famille.",
+    description:"Le Monopoly est jeu de plateau, il faut acheter, vendre et échanger des propriétés pour gagner. Les cartes Chance et Caisse de communauté peuvent modifier la partie : un joueur peut s'enrichir ou être envoyé en prison. C'est le jeu parfait pour les soirées de jeux en famille.",
     price: "€€",
     image: ["monopolyboite","monopoly-contenant"],
     nbPlayer: "2 à 6 joueurs",

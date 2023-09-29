@@ -30,12 +30,12 @@ struct Etape1: View {
                     
                     Text ("Bienvenue\nsur prismi 🙂")
                         .font(Font.custom("Inter-Bold", size: 40))
-                        .foregroundColor(Color("Coloryellow"))
+//                        .foregroundColor(Color("Coloryellow"))
                         .padding(.vertical)
                     
                     Text ("L’application qui sélectionne les jeux de société adaptés à votre vision.")
                         .font(Font.custom("Inter-Regular", size: 25))
-                        .foregroundColor(Color("Coloryellow"))
+//                        .foregroundColor(Color("Coloryellow"))
                     
                     Spacer()
                     
@@ -43,7 +43,7 @@ struct Etape1: View {
                         .font(.system(size: 25))
                         .fontWeight(.bold)
                         .padding(.vertical)
-                        .foregroundColor(Color("Coloryellow"))
+//                        .foregroundColor(Color("Coloryellow"))
                     
                     
                     VStack(alignment: .leading ,spacing: 20.0){
@@ -59,11 +59,11 @@ struct Etape1: View {
                             } label: {
                                 Image(systemName: "eye")
                                     .font(.system(size: 30))
-                                    .foregroundColor(Color("Coloryellow"))
+//                                    .foregroundColor(Color("Coloryellow"))
                                 
                                 Text("Deutéranopie")
                                     .font(.system(size: 25))
-                                    .foregroundColor(Color("Coloryellow"))
+//                                    .foregroundColor(Color("Coloryellow"))
                             }
                         }
                         
@@ -75,11 +75,11 @@ struct Etape1: View {
                             } label: {
                                 Image(systemName: "eye")
                                     .font(.system(size: 30))
-                                    .foregroundColor(Color("Coloryellow"))
+//                                    .foregroundColor(Color("Coloryellow"))
                                 
                                 Text("Tritanopie")
                                     .font(.system(size: 25))
-                                    .foregroundColor(Color("Coloryellow"))
+//                                    .foregroundColor(Color("Coloryellow"))
                             }
                         }
                         
@@ -91,15 +91,15 @@ struct Etape1: View {
                             } label: {
                                 Image(systemName: "eye.fill")
                                     .font(.system(size: 30))
-                                    .foregroundColor(Color("Coloryellow"))
+//                                    .foregroundColor(Color("Coloryellow"))
                                 
                                 Text("Je ne sais pas")
                                     .font(.system(size: 25))
-                                    .foregroundColor(Color("Coloryellow"))
+//                                    .foregroundColor(Color("Coloryellow"))
                             }
                         }
                     }
-                    
+                   
                     Spacer()
                     
                     HStack() {
@@ -124,6 +124,7 @@ struct Etape1: View {
                     Spacer()
                 }
                 .padding(.horizontal, 30)
+                .foregroundColor(myTextColor)
             }
             
         }
